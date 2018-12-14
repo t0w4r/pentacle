@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 celery = "*"
+djongo = "*"
 
 [dev-packages]
 
