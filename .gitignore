@@ -1,3 +1,4 @@
 .idea/*
 tests/*
 lib/modules/advance/*
+*.pyc
