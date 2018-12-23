@@ -1,2 +1,0 @@
-# web api
-use django

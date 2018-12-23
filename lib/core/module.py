@@ -8,7 +8,9 @@
     
 '''
 
-class Module(object):
+from lib.core.dataType import Module
+
+class BaseModule(Module):
 
     pass
 

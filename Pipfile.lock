@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "af5e10d0177d1eefee96d1b2bb4642fdf96d0cd6adcc02ca0f7cafd30d7f0cf8"
+            "sha256": "ec155f04cf281222e0eadae7c8c3ea21e4f06e9dbc9d8e085b6feeee6e882e90"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -66,6 +66,14 @@
             ],
             "version": "==4.2.2"
         },
+        "motor": {
+            "hashes": [
+                "sha256:462fbb824f4289481c158227a2579d6adaf1ec7c70cf7ebe60ed6ceb321e5869",
+                "sha256:d035c09ab422bc50bf3efb134f7405694cae76268545bd21e14fb22e2638f84e"
+            ],
+            "index": "pypi",
+            "version": "==2.0.0"
+        },
         "pymongo": {
             "hashes": [
                 "sha256:025f94fc1e1364f00e50badc88c47f98af20012f23317234e51a11333ef986e6",
@@ -110,6 +118,12 @@
             ],
             "version": "==3.7.2"
         },
+        "python3-pika": {
+            "hashes": [
+                "sha256:073267c932671cfbcc62d772eba511e77bae80e32a22a424dd9300bbb98b70b0"
+            ],
+            "version": "==0.9.14"
+        },
         "pytz": {
             "hashes": [
                 "sha256:31cb35c89bd7d333cd32c5f278fca91b523b0834369e757f4c5641ea252236ca",
@@ -123,6 +137,26 @@
                 "sha256:d9cf190f51cbb26da0412247dfe4fb5f4098edb73db84e02f9fc21fdca31fed4"
             ],
             "version": "==0.2.4"
+        },
+        "tornado": {
+            "hashes": [
+                "sha256:0662d28b1ca9f67108c7e3b77afabfb9c7e87bde174fbda78186ecedc2499a9d",
+                "sha256:4e5158d97583502a7e2739951553cbd88a72076f152b4b11b64b9a10c4c49409",
+                "sha256:732e836008c708de2e89a31cb2fa6c0e5a70cb60492bee6f1ea1047500feaf7f",
+                "sha256:8154ec22c450df4e06b35f131adc4f2f3a12ec85981a203301d310abf580500f",
+                "sha256:8e9d728c4579682e837c92fdd98036bd5cdefa1da2aaf6acf26947e6dd0c01c5",
+                "sha256:d4b3e5329f572f055b587efc57d29bd051589fb5a43ec8898c77a47ec2fa2bbb",
+                "sha256:e5f2585afccbff22390cddac29849df463b252b711aa2ce7c5f3f342a5b3b444"
+            ],
+            "index": "pypi",
+            "version": "==5.1.1"
+        },
+        "tornado-celery": {
+            "hashes": [
+                "sha256:57cd702c41f9c7cc80eb61329cd206812e076e6919bfeae078e1a51c053ad509"
+            ],
+            "index": "pypi",
+            "version": "==0.3.5"
         },
         "vine": {
             "hashes": [
