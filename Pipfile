@@ -8,7 +8,7 @@ celery = "*"
 djongo = "*"
 tornado = "*"
 tornado-celery = "*"
-motor = "*"
+pymongo = "*"
 
 [dev-packages]
 

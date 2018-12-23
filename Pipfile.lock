@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ec155f04cf281222e0eadae7c8c3ea21e4f06e9dbc9d8e085b6feeee6e882e90"
+            "sha256": "cfdbfcfc9539fe324030a31e9ad34b28346fc82fd7381acb41d63b683d0d04be"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -66,14 +66,6 @@
             ],
             "version": "==4.2.2"
         },
-        "motor": {
-            "hashes": [
-                "sha256:462fbb824f4289481c158227a2579d6adaf1ec7c70cf7ebe60ed6ceb321e5869",
-                "sha256:d035c09ab422bc50bf3efb134f7405694cae76268545bd21e14fb22e2638f84e"
-            ],
-            "index": "pypi",
-            "version": "==2.0.0"
-        },
         "pymongo": {
             "hashes": [
                 "sha256:025f94fc1e1364f00e50badc88c47f98af20012f23317234e51a11333ef986e6",
@@ -116,6 +108,7 @@
                 "sha256:e21180042aaa9589471c27f0cc1e38868abeaa59f988877fa129f3b5efdf6bfb",
                 "sha256:e98a9d2c590bc5a5e84f32430d2dc1fcc549d0a150a613bae6eadb5ef7c20465"
             ],
+            "index": "pypi",
             "version": "==3.7.2"
         },
         "python3-pika": {
