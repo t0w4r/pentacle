@@ -10,6 +10,8 @@
 
 queue_name = 'test'
 
+app_token = "848bdbfe-0836-11e9-8ad6-00e04c680497"
+
 defaults = {
     'broker_url': 'amqp://user:password@localhost',
     'task_serializer': 'json',
@@ -24,7 +26,7 @@ defaults = {
                 # 'host':'mongodb://root:password@192.168.99.16:27017',
                 'host':'mongodb://root:password@localhost:27017',
                 "database": "pentacle",
-                "taskmeta_collection":'pentacle_celery'
+                "taskmeta_collection":'celery'
             }
 }
 

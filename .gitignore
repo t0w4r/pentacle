@@ -2,3 +2,4 @@
 tests/*
 lib/modules/advance/*
 *.pyc
+logs/*.log
