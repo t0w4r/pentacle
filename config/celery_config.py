@@ -21,8 +21,8 @@ defaults = {
     'result_backend': 'mongodb',
     'mongodb_backend_settings':
             {
-                'host':'mongodb://root:password@192.168.99.16:27017',
-                # 'host':'mongodb://root:password@localhost:27017',
+                # 'host':'mongodb://root:password@192.168.99.16:27017',
+                'host':'mongodb://root:password@localhost:27017',
                 "database": "pentacle",
                 "taskmeta_collection":'pentacle_celery'
             }

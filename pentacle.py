@@ -23,3 +23,9 @@ def mul(x, y):
 @celery_app.task
 def xsum(numbers):
     return sum(numbers)
+
+@celery_app.task
+def test(t):
+    d = dict()
+    d['test'] = t
+    return d
